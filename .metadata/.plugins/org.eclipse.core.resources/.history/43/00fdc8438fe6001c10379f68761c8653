@@ -1,0 +1,17 @@
+package controle.exercicios;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		int soma = 0;
+		int num;
+		
+		do {
+			
+		} while (num > 0);
+
+		entrada.close();
+	}
+}

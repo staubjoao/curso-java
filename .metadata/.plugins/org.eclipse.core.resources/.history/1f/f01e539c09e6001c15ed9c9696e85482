@@ -1,0 +1,29 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		// Ler num1
+		// Ler num2
+		// + - * / %
+		// realizar a operação
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o número 1: ");
+		int num1 = Integer.parseInt(sc.nextLine());
+		System.out.println("Digite o número 1: ");
+		int num2 = Integer.parseInt(sc.nextLine());
+		System.out.println("Digite a operação: ");
+		String op = sc.next();
+
+		int resultado = 0;
+		resultado = op.equals("+") ? num1 + num2 : 0;
+		resultado = op.equals("-") ? num1 - num2 : 0;
+		resultado = op.equals("*") ? num1 * num2 : 0;
+		resultado = op.equals("/") ? num1 / num2 : 0;
+		resultado = op.equals("%") ? num1 % num2 : 0;
+		
+		System.out.println("O resultado é " + resultado);
+	}
+}

@@ -1,0 +1,15 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		double total = 0;
+		int contador = 0;
+
+		entrada.close();
+	}
+}

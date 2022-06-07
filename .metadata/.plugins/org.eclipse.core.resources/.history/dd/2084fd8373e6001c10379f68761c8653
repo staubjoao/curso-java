@@ -1,0 +1,16 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndeterminado {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String entrada = "";
+		do {
+			System.out.print("Digite sua mensagem: ");
+			entrada = sc.next();
+		} while (entrada.equalsIgnoreCase("sair"));
+	}
+}

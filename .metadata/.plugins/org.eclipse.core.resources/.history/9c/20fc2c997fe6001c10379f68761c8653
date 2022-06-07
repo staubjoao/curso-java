@@ -1,0 +1,22 @@
+package controle.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Digite um número: ");
+		int n = entrada.nextInt();
+
+		if (n > 0 && n < 10) {
+			System.out.println("Está entre 0 e 10");
+			if (n % 2 == 0) {
+
+			}
+		}
+
+		entrada.close();
+	}
+}

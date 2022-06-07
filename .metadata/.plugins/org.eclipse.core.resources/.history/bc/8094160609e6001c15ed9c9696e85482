@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class DesafioCalculadora {
+	// Ler num1 
+	// Ler num2
+	// + - * / %
+	// realizar a operação
+}

@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class DesafiosAritmeticos {
+
+	public static void main(String[] args) {
+		
+		int a = (int) Math.pow(6*(3+2), 2)/3*2;
+	}
+}
